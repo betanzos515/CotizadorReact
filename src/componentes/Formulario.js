@@ -1,7 +1,7 @@
 import {Fragment, useState} from 'react';
 import { calcularTotal } from '../herlpers';
 const Formulario = (props)=>{
-    const {cantidad,guardarCantidad, plazo, guardarPlazo, total, guardarTotal, estadoSpinner} = props 
+    const {cantidad,guardarCantidad, plazo, guardarPlazo,guardarTotal, estadoSpinner} = props 
     const [error, guardarError] = useState(false);
     const calcularPrestamo = e =>{
         e.preventDefault();
